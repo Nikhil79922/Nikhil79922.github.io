@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="logo"></img>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>MERN Stack Developer</p>
+                <h1>Hi, I'm <span>Nikhil</span><br>Singh from Nashik</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> A highly motivated and skilled
+                        B.Tech CSE Student from Sandip University seeking achallenging role in Web Development.
+                        Possessing a strong foundation in HTML5, CSS, and JavaScript, I am eager to contribute my
+                        technical expertise to create innovative
+                        and user-friendly w e b applications.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>FRONTEND DEVELOPMENT</span><br>HTML, CSS3, Tailwind CSS Javascript </li>
+                            <li><span>BACKEND DEVELOPMENT</span><br>Node.JS, Express.JS, EJS,React.JS, Next.JS</li>
+                            <li><span>DATABASES</span><br>MongoDB with mongoose.js, MYSQL</li>
+                            <li><span>DESIGNING</span><br>GSAP , Locomative library</li>
+
+                            
+                            <li><span>Java</span><br>Data Structure and Algorithms</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul type="disk">
+                            <li><span>• Prodigy Info Tech | Remote Intern | 07/2024 - 08/2024</span><br>Created Stopwatch, Landing Page</li>
+                            <li>Designed Password Generator, Weather Report website, Alarm Clock</li>
+                            <li>Optimized customer experience by delivering superior services and effectively
+                                troubleshooting issues.</li>
+                            <li><span>• Codsoft | Remote Intern | 07/2023 - 08/2023</span><br> Created Many JS projects Such as Calculator, TIC TAK TOE game, Snake Game, Analog clock,
+                                Dragon Game</li>
+                            <li>Created To DO list Using React JS</li>
+                            <li>Explored new technologies and approaches to streamline processes.</li>
+                            <li><span>• TechnoHacks Edu Tech | Remote Intern | 09/2023 - 010/2023</span><br>Designed Netflix Clone, Amazon Clone, Spotify Clone and many more projects
+                                Dragon Game</li>
+                            <li>Created X.com(Twitter) Clone with Tailwail CSS</li>
+                            <li>Gathered, organized and input information into digital database.</li>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>SANDIP &nbsp;UNIVERSITY</span><br>Bachelor of Technology (B.Tech)i n Computer
+                                Science and Engineering <br>
+                                overall GPA:- 8.2 <br>
+                                Nashik. India <br>
+                                2021-2025</li>
+                            <li><span>ST Xavier International School</span><br>CBSE Board</li>
+                            <li>10th Score: 71%</li>
+                            <li>12th Score -: 72%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-object-ungroup"></i>
+                    <h2>FRONTEND Development</h2>
+                    <p>Frontend development using HTML, Tailwind CSS, and JavaScript creates responsive, interactive web pages. HTML structures content, while Tailwind CSS streamlines styling with utility classes for responsive design. CSS enhances visuals with layouts, colors, and animations. JavaScript adds interactivity, enabling dynamic content and real-time updates. These technologies together build modern, user-friendly websites.</p>
+                    <a href="https://www.coursera.org/articles/front-end-developer"
+                        target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>BACKEND Development</h2>
+                    <p>Backend development with Node.js, Express.js, MongoDB, React.js, and Next.js enables robust, dynamic web applications. Node.js handles server-side tasks, while Express.js simplifies API creation. MongoDB efficiently manages data storage. On the frontend, React.js handles user interfaces, and Next.js enhances React with server-side rendering. Together, these technologies create scalable, high-performance web applications.
+                    </p>
+                    <a href="https://www.coursera.org/articles/back-end-developer"
+                        target="_blank">Learn more</a>
+
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>3D Deign</h2>
+                    <p>Building a 3D animated website with Tailwind CSS, GSAP, and the Locomotive library creates visually stunning and interactive experiences. Tailwind CSS ensures responsive and modern design, while GSAP powers smooth animations and transitions. The Locomotive library enhances scrolling effects and adds depth with 3D motion. Together, these tools enable the creation of dynamic, engaging websites with immersive animations.</p>
+                    <a href="https://www.spinxdigital.com/blog/design-developers-the-newest-role-in-website-design/" target="_blank">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="3D design.png" alt="">
+                    <div class="layer">
+                        <h2>3D Animation Site</h2>
+                        <p>Developed a visually engaging 3D interactive website using Tailwind CSS, GSAP, and Locomotive Scroll, featuring smooth animations and scroll-triggered effects. This project highlights expertise in front-end development and the integration of advanced libraries for immersive web experiences.</p>
+                        <a href="https://www.linkedin.com/posts/nikhil-singh-a167b2279_webdev-3dwebsite-gsap-activity-7231285717006499840-zQD5?utm_source=share&utm_medium=member_desktop"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Spotify.png" alt="">
+                    <div class="layer">
+                        <h2>Spotify</h2>
+                        <p>Developed a fully responsive Spotify clone website using HTML, CSS, and JavaScript. The project replicates the core features of Spotify, including dynamic song loading and offline access, while ensuring a seamless user experience across all devices. This project demonstrates strong functional web applications.
+                           </p>
+                        <a href="https://www.linkedin.com/posts/nikhil-singh-a167b2279_webdevelopment-spotify-projects-activity-7231971192637730817-YN2x?utm_source=share&utm_medium=member_desktop" target="_blank"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Twitter.png" alt="">
+                    <div class="layer">
+                        <h2>X.Com (Twitter)</h2>
+                        <p>
+                            Created a fully responsive X.com clone using HTML and Tailwind CSS, replicating the modern design and functionality of the original platform. The project highlights expertise in adaptive layouts and user-friendly interfaces, ensuring a seamless experience across all devices.</p>
+                        <a href="https://www.linkedin.com/posts/nikhil-singh-a167b2279_tailwindcss-responsiveness-twitterclone-activity-7231974368036147200-hREb?utm_source=share&utm_medium=member_desktop"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Nikhil79922/Projects.git" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> ns94301918@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 7992238245</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Nikhil79922"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/nikhil_singh_0666/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/nikhil-singh-a167b2279/"><i
+                                class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="Nikhil's_Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Nikhil Manoj Singh. Made with <i class="fas fa-heart"></i> by Nikhil Singh</p>
+        </div>
+    </div>
+<script src="scripts.js"></script>
+</body>
+
+</html>
