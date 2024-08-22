@@ -471,4 +471,8 @@ nav .fas {
         display: block;
         margin: 25px;
     }
+        .fa-times{
+        padding-left: 2vw;
+        margin-top: -40px;
+    }
 }
