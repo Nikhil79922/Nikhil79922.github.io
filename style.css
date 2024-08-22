@@ -454,18 +454,17 @@ nav .fas {
         position: fixed;
         top: 0;
         width: 200px;
-        /* Increased the width to accommodate the menu items */
         right: 0;
         height: 100vh;
         padding-top: 50px;
         transform: translateX(200px);
-        /* Off-canvas menu, initially hidden */
         transition: transform 0.3s ease-in-out;
     }
 
     nav ul.show {
         transform: translateX(0);
-        /* Show the menu when 'show' class is applied */
+        display:flex;
+        flex-direction: column;
     }
 
     nav ul li {
