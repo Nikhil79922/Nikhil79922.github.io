@@ -425,7 +425,9 @@ nav .fas {
 
     /* Adjust the header image and text size for small screens */
     #header {
-        background-image: url(phone-background.png);
+        background-image: url("https://p4.wallpaperbetter.com/wallpaper/625/96/995/girl-face-lips-profile-wallpaper-preview.jpg");
+        background-size: cover;
+        background-position: left;
     }
 
     .header-text {
